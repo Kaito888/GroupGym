@@ -1,38 +1,30 @@
+body {
+  background: url('./asserts/background.png') no-repeat center center fixed;
+  background-size: cover;
+}
+
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+input {
+  border: solid 2px rgb(93, 69, 226);
+  border-radius: 3px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+button {
+  border: solid 2px rgb(9, 6, 31);
+  border-radius: 3px;
+  background:rgb(79, 68, 146);
+  color: rgb(233, 231, 248);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+button:hover {
+  background:rgb(201, 79, 79);
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.content-item {
+  border: solid 2px rgb(78, 55, 209);
+  border-radius: 10px;
+  padding: 20px;
 }
